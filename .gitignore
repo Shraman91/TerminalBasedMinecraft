@@ -1,8 +1,5 @@
 
 .vscode/*
-
-# Ignore all files in the .vscode directory
-.vscode/*
-
 minecraft
 minecraft.o
+*.exe

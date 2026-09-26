@@ -1,6 +1,6 @@
 # Basic Minecraft implementation with ASCII characters in C
 
-A simple 3D raycasting demo inspired by Minecraft, rendered in the terminal using ASCII characters and color codes.
+A simple 3D raycasting engine inspired by Minecraft, rendered in the terminal using ASCII characters and color codes. It features world generation, player movement, physics with jumping, and a functioning block inventory/hotbar system!
 
 ![Gameplay Screenshot](source/readme_image.png) 
 
@@ -47,8 +47,10 @@ Make sure your terminal window is large enough to display the output correctly (
 *   **`a` / `d`**: Look left / right
 *   **`i` / `k`**: Move forward / backward
 *   **`j` / `l`**: Strafe left / right
-*   **`x`**: Break the block you are looking at (highlighted green 'o')
-*   **`space`**: Place a block ('@') on the face of the block you are looking at
+*   **`space`**: Jump
+*   **`x`**: Break the block you are looking at (this adds it to your inventory)
+*   **`f` / `p`**: Place a block from your active hotbar slot on the face of the block you're looking at
+*   **`1` - `9`**: Select a hotbar slot
 *   **`q`**: Quit the game
 
 ## Cleaning Up
