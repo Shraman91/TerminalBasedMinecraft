@@ -2,7 +2,7 @@
 
 A simple 3D raycasting engine inspired by Minecraft, rendered in the terminal using ASCII characters and color codes. It features world generation, player movement, physics with jumping, and a functioning block inventory/hotbar system!
 
-![Gameplay Screenshot](source/readme_image.png) 
+![Gameplay Screenshot](source/screenshot.png) 
 
 ## Prerequisites
 
